@@ -1,0 +1,90 @@
+$myblack: #212223;
+
+.App {
+  background-color:$myblack;
+  justify-content: space-evenly;
+  .Buttons {
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    background-color: $myblack;
+    color: white;
+    margin: 2vh 1em 3vh;
+    font-size: 12px;
+  }
+}
+.Dashboard {
+margin: 3vh 2vw 5vh;
+}
+.Product {
+  position: relative;
+}
+.color-code {
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  align-self: stretch;
+  width: 20px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.GryDot {
+  margin-right: 1em;
+  color: grey;
+}
+.BluDot {
+  margin-right: 1em;
+  color: blue;
+}
+.OrngDot {
+  margin-right: 1em;
+  color: orange;
+}
+.RedDot {
+  margin-right: 1em;
+  color: red;
+}
+.grey {
+  background-color: grey;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.red {
+  background-color: red;
+}
+.SingleDot {
+  color: white;
+  padding: 5px;
+}
+.Dots {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  color: white;
+  bottom: 0;
+  right: 50vw;
+  align-items:flex-end;
+}
+.Pagination {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  color: white;
+  bottom: 0;
+  right: 2em;
+
+}
+h3 {
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+

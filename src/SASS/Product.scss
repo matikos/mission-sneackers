@@ -1,0 +1,39 @@
+.Product {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  align-items: center;
+  color: grayscale($color: #8f8c8c);
+  border: #8f8c8c 1px solid;
+  border-radius: 7px;
+  margin: 15px;
+
+    .Shoe {
+      display: flex;
+      color: white;
+      font-weight: bold;
+    }
+    img {
+      width: 20vh;
+      height: auto;
+      margin: 1vw;
+      border-radius: 5%;
+    }
+    .shoeName {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;     
+    }
+    .Initials {
+      color: white;
+      font-weight: bold;
+    }
+}
+p {
+  margin: 0;
+}
+span{
+  padding: 1em 1em;
+  border: #8f8c8c 1px solid;
+  border-radius: 6px;
+}
